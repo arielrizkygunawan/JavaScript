@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.second table{
+    width: 500px;
+    height: 700px;
+    background-color: black;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(0.7);
+    box-shadow: 0px 10px 10px -5px rgb(255, 255, 255);
+}
+
+.second table{
+    padding: 20px;
+}
+
+.second table tr td{
+    width: 100px;
+    height: 100px;
+}
+
+.second-table .total{
+    background-color: #d3d4cf;
+    border-radius: 0;
+    text-align: right;
+    padding-right: 20px;
+    border-color: #fff;
+}
+
+.zero{
+    width: 200px;
+    height: 90px;
+    border-radius: 50px;
+}
+
+button{
+    border-radius: 100%;
+    width: 95px;
+    height: 95px;
+    background-color: #336B87;
+    border: 0;
+    color: #fff;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+button:hover{
+    background-color: #a5a5a5;
+    cursor: pointer;
+}
+
+.aaa{
+    background-color: #90afc5;
+    color: #000;
+}
+
+.aaa:hover{
+    background-color: #695e5e; 
+}
+
+.kalkulator-operation{
+    background-color: #763626;
+}
+
+.kalkulator-operation:hover{
+    background-color: #2a3132;
+}
+
+.second-table .total{
+    font-size: 34px;
+}
+
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
